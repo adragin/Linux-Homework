@@ -1,0 +1,17 @@
+   0 mkdir -p /home/animals/dogs /home/animals/cats /home/animals/fish
+   1 touch /home/animals/dogs/pluto
+   2 touch /home/animals/cats/garfield
+   3 touch /home/animals/fish/nemo
+   4 tree /home/
+   5 touch /tmp/adam
+   6 mkdir /home/humans
+   7 cp /tmp/adam /home/humans/
+   8 tree /home/
+   9 touch /tmp/evA
+  10 ls -la /tmp/
+  11 mv /tmp/evA /opt/eve
+  12 ls -la /opt/
+  13 mv /opt/eve /home/humans/
+  14 ls -la /opt/
+  15 tree /home/
+  16 history > alex_drahin_homework_1.txt
