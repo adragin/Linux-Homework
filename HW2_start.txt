@@ -1,0 +1,6 @@
+Start
+12/03/2024
+apk list 'musl*'
+apk install musl-dev
+apk add musl-dev
+dhcpcd

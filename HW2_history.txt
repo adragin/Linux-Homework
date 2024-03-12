@@ -1,0 +1,13 @@
+   0 mkdir -p /home/user/start
+   1 > /home/user/start/1.txt
+   2 echo "Start" >> /home/user/start/1.txt
+   3 date +'%d/%m/%Y' >> /home/user/start/1.txt 
+   4 cat /home/user/start/1.txt 
+   5 mkdir -p /opt/task
+   6 cp /home/user/start/1.txt /opt/task/start.txt
+   7 cat /opt/task/start.txt 
+   8 ls -la /
+   9 tail -4 /.ash_history  >> /opt/task/start.txt 
+  10 tail -4 /.fscmd   >> /opt/task/start.txt 
+  11 export_file /opt/task/start.txt 
+  12 history > HW2_history.txt
