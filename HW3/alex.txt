@@ -1,0 +1,8 @@
+25.03.2024
+/dev/root                 4.9G      2.3G      2.6G  47% /
+   0 date +'%d.%m.%Y' >> /tmp/alex.txt
+   1 df -h | grep -w / >> /tmp/alex.txt 
+   2 cat /tmp/alex.txt 
+   3 history | tail -5 >> /tmp/alex.txt 
+AuthenticX86
+33

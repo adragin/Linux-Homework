@@ -1,0 +1,9 @@
+   0 date +'%d.%m.%Y' >> /tmp/alex.txt
+   1 df -h | grep -w / >> /tmp/alex.txt 
+   2 cat /tmp/alex.txt 
+   3 history | tail -5 >> /tmp/alex.txt 
+   4 cat /proc/cpuinfo | grep vendor >> /tmp//alex.txt 
+   5 vi /tmp//alex.txt 
+   6 ps -ef | sed '1d' | wc -l >> /tmp/alex.txt 
+   7 export_file /tmp/alex.txt 
+   8 history > history.txt
